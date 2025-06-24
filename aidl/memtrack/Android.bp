@@ -3,7 +3,7 @@ cc_binary {
     relative_install_path: "hw",
     init_rc: ["memtrack_default.rc"],
     vintf_fragments: ["memtrack_default.xml"],
-    vendor: true,
+    system_ext_specific: true,
     shared_libs: [
         "android.hardware.memtrack-V1-ndk",
         "libbase",
