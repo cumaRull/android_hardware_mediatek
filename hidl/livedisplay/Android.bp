@@ -44,5 +44,4 @@ cc_binary {
     name: "vendor.lineage.livedisplay@2.0-service-mediatek",
     init_rc: ["vendor.lineage.livedisplay@2.0-service-mediatek.rc"],
     defaults: ["livedisplay_mediatek_defaults"],
-    vendor: true,
 }
